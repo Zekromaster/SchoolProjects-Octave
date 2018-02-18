@@ -17,7 +17,7 @@ function med = media(matrice)
 	for i = matrice
 		somma = somma + i
 	end
-	med = somma/2;
+	med = somma/length(matrice);
 end
 
 %Per testare, usare questo codice:
