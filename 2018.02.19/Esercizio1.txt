@@ -1,0 +1,27 @@
+% Esercizio A
+ans = ((e^3)-3)/(log2(4)+(e^5))
+ans = sqrt((3*log(4))/((e^5)-2))
+ans = sin(4*pi) - cos(pi/2)
+
+% Esercizio B
+x = 28 %Giorno di Nascita
+y = 10 %Mese di nascita
+ans = ((x^4) - y)/(log(x)-(e^y))
+ans = (5*x*(e^x)) - (y*log(x+(y^2)))
+ans = cos(x*y) + (e^(x*y))
+
+% Esercizio C
+l = 9 %Lunghezza del cognome in lettere
+v = [1:1:l]'
+
+% Esercizio D
+v = v'
+
+% Esercizio E
+v(5) = x
+
+% Esercizio F
+z = [0:0.01:10];
+
+% Esercizio G
+k = linspace(0, 50, 100)
