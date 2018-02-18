@@ -13,8 +13,8 @@
 % this program.  If not, see <http://www.gnu.org/licenses/>.
 
 % Restituisce una matrice [perimetro, area]
-function ret-val = trapezio(basemaggiore, baseminore, latouno, latodue, altezza)
+function retval = trapezio(basemaggiore, baseminore, latouno, latodue, altezza)
 	peri = basemaggiore + baseminore + latouno + latodue;
 	area = ((basemaggiore+baseminore)*altezza)/2;
-	ret-val = [peri, area];
+	retval = [peri, area];
 end
