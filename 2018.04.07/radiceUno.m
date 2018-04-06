@@ -12,11 +12,11 @@
 % You should have received a copy of the GNU General Public License along with
 % this program.  If not, see <http://www.gnu.org/licenses/>.
 
-function inv = invers(numero, iterazioni, zconzero)
+function rad = radiceUno(numero, iterazioni, zconzero)
 	z = zconzero;
 	x = numero;
 	for i = [1:1:iterazioni]
-		z = z*(2-(x*z));
+		z = (z + x/z)/2; 
 	end
-	inv = z;
+	rad = z;
 end
